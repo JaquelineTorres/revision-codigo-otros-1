@@ -108,7 +108,8 @@ select {
 [type=reset],
 [type=submit],
 button {
-  -webkit-appearance: button
+  -webkit-appearance: button;
+
 }
 
 [type=button]::-moz-focus-inner,
@@ -172,7 +173,8 @@ template {
 
 
 /* Variables */
-html {
+/* Cambié html por :root */
+:root {
   --grey: #e7e7e7;
   --gray: var(--grey);
   --blue: #0072B9;
